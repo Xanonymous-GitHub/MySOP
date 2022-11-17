@@ -5,7 +5,7 @@ import "./main.css";
 export default component$(() => {
   return (
     <>
-      <embed class="pdf-container" src="/pdf/SOP.pdf"></embed>
+      <embed type="application/pdf" class="pdf-container" src="/pdf/SOP.pdf" />
     </>
   );
 });
