@@ -1,4 +1,5 @@
 # MySOP
+
 My Statement of Purpose for applying the Master of Software Engineering and computer science programs.
 
 Hi, this is my Statement of Purpose, in order to apply for a master's degree in software engineering and computer science.

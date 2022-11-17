@@ -1,0 +1,9 @@
+{
+  "$schema": "https://json.schemastore.org/web-manifest-combined.json",
+  "name": "MySOP",
+  "short_name": "SOP of TU Lin",
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#333",
+  "description": "The SOP of TU Lin"
+}
