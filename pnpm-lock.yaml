@@ -5,6 +5,7 @@ specifiers:
   "@builder.io/qwik-city": 0.0.122
   "@types/eslint": 8.4.10
   "@types/node": latest
+  "@types/ua-parser-js": ^0.7.36
   "@typescript-eslint/eslint-plugin": 5.43.0
   "@typescript-eslint/parser": 5.43.0
   eslint: 8.27.0
@@ -12,14 +13,19 @@ specifiers:
   node-fetch: 3.3.0
   prettier: 2.7.1
   typescript: 4.9.3
+  ua-parser-js: ^1.0.32
   vite: 3.2.4
   vite-tsconfig-paths: 3.5.2
+
+dependencies:
+  ua-parser-js: 1.0.32
 
 devDependencies:
   "@builder.io/qwik": 0.13.3
   "@builder.io/qwik-city": 0.0.122
   "@types/eslint": 8.4.10
   "@types/node": 18.11.9
+  "@types/ua-parser-js": 0.7.36
   "@typescript-eslint/eslint-plugin": 5.43.0_wze2rj5tow7zwqpgbdx2buoy3m
   "@typescript-eslint/parser": 5.43.0_e3uo4sehh4zr4i6m57mkkxxv7y
   eslint: 8.27.0
@@ -285,6 +291,13 @@ packages:
     resolution:
       {
         integrity: sha512-21cFJr9z3g5dW8B0CVI9g2O9beqaThGQ6ZFBqHfwhzLDKUxaqTIy3vnfah/UPkfOiF2pLq+tGz+W8RyCskuslw==,
+      }
+    dev: true
+
+  /@types/ua-parser-js/0.7.36:
+    resolution:
+      {
+        integrity: sha512-N1rW+njavs70y2cApeIw1vLMYXRwfBy+7trgavGuuTfOd7j1Yh7QTRc/yqsPl6ncokt72ZXuxEU0PiCp9bSwNQ==,
       }
     dev: true
 
@@ -2964,6 +2977,13 @@ packages:
     engines: { node: ">=4.2.0" }
     hasBin: true
     dev: true
+
+  /ua-parser-js/1.0.32:
+    resolution:
+      {
+        integrity: sha512-dXVsz3M4j+5tTiovFVyVqssXBu5HM47//YSOeZ9fQkdDKkfzv2v3PP1jmH6FUyPW+yCSn7aBVK1fGGKNhowdDA==,
+      }
+    dev: false
 
   /unified/10.1.2:
     resolution:

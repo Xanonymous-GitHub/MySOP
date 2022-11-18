@@ -26,6 +26,7 @@
     "@builder.io/qwik-city": "0.0.122",
     "@types/eslint": "8.4.10",
     "@types/node": "latest",
+    "@types/ua-parser-js": "^0.7.36",
     "@typescript-eslint/eslint-plugin": "5.43.0",
     "@typescript-eslint/parser": "5.43.0",
     "eslint": "8.27.0",
@@ -35,5 +36,8 @@
     "typescript": "4.9.3",
     "vite": "3.2.4",
     "vite-tsconfig-paths": "3.5.2"
+  },
+  "dependencies": {
+    "ua-parser-js": "^1.0.32"
   }
 }
